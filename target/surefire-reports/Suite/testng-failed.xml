@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="seleniumProject.Test.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="SumbitOrder(failed)" verbose="0">
+    <classes>
+      <class name="seleniumProject.TestComponents.SubmitOrder">
+        <methods>
+          <include name="PurchaseOrder" invocation-numbers="0 1"/>
+          <include name="orderValidation"/>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- seleniumProject.TestComponents.SubmitOrder -->
+    </classes>
+  </test> <!-- SumbitOrder(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-14T19:21:12 IST" name="Suite" finished-at="2025-02-14T19:22:05 IST" duration-ms="53482">
+    <groups>
+    </groups>
+    <test started-at="2025-02-14T19:21:12 IST" name="SumbitOrder" finished-at="2025-02-14T19:22:05 IST" duration-ms="53482">
+      <class name="seleniumProject.TestComponents.SubmitOrder">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumProject.TestComponents.SubmitOrder@7927bd9f]" started-at="2025-02-14T19:21:12 IST" name="launchApplication" finished-at="2025-02-14T19:21:22 IST" duration-ms="9336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="PurchaseOrder(java.util.HashMap)[pri:0, instance:seleniumProject.TestComponents.SubmitOrder@7927bd9f]" started-at="2025-02-14T19:21:22 IST" name="PurchaseOrder" data-provider="getData" finished-at="2025-02-14T19:21:32 IST" duration-ms="10813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Harshahn@123, product=ZARA COAT 3, email=hnharsha83@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumProject.TestComponents.SubmitOrder@7927bd9f]" started-at="2025-02-14T19:21:32 IST" name="tearDown" finished-at="2025-02-14T19:21:33 IST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumProject.TestComponents.SubmitOrder@7927bd9f]" started-at="2025-02-14T19:21:33 IST" name="launchApplication" finished-at="2025-02-14T19:21:40 IST" duration-ms="7346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="PurchaseOrder(java.util.HashMap)[pri:0, instance:seleniumProject.TestComponents.SubmitOrder@7927bd9f]" started-at="2025-02-14T19:21:40 IST" name="PurchaseOrder" data-provider="getData" finished-at="2025-02-14T19:21:50 IST" duration-ms="10381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=QWERTY, email=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumProject.TestComponents.SubmitOrder@7927bd9f]" started-at="2025-02-14T19:21:50 IST" name="tearDown" finished-at="2025-02-14T19:21:51 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumProject.TestComponents.SubmitOrder@7927bd9f]" started-at="2025-02-14T19:21:51 IST" name="launchApplication" finished-at="2025-02-14T19:21:56 IST" duration-ms="5344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderValidation(java.util.HashMap)[pri:0, instance:seleniumProject.TestComponents.SubmitOrder@7927bd9f]" started-at="2025-02-14T19:21:56 IST" name="orderValidation" data-provider="getData" finished-at="2025-02-14T19:21:57 IST" depends-on-methods="seleniumProject.TestComponents.SubmitOrder.PurchaseOrder" duration-ms="761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Harshahn@123, product=ZARA COAT 3, email=hnharsha83@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumProject.TestComponents.SubmitOrder@7927bd9f]" started-at="2025-02-14T19:21:57 IST" name="tearDown" finished-at="2025-02-14T19:21:57 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumProject.TestComponents.SubmitOrder@7927bd9f]" started-at="2025-02-14T19:21:57 IST" name="launchApplication" finished-at="2025-02-14T19:22:04 IST" duration-ms="7061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderValidation(java.util.HashMap)[pri:0, instance:seleniumProject.TestComponents.SubmitOrder@7927bd9f]" started-at="2025-02-14T19:22:04 IST" name="orderValidation" data-provider="getData" finished-at="2025-02-14T19:22:05 IST" depends-on-methods="seleniumProject.TestComponents.SubmitOrder.PurchaseOrder" duration-ms="994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=QWERTY, email=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumProject.TestComponents.SubmitOrder@7927bd9f]" started-at="2025-02-14T19:22:05 IST" name="tearDown" finished-at="2025-02-14T19:22:05 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumProject.TestComponents.SubmitOrder -->
+    </test> <!-- SumbitOrder -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -18,7 +18,7 @@ import seleniumProject.Test.BaseTest;
 
 public class SubmitOrder extends BaseTest{
 	
-	
+	//SubmitOrder
 	@Test(dataProvider = "getData")
 	public void PurchaseOrder(HashMap<String,String> input) throws IOException {
 		
